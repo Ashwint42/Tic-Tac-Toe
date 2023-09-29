@@ -53,30 +53,7 @@ function addButtonEvents() {
   }));
 }
 
-function getFormData(target, selectedMarker) {
-  target.classList.add('active');
-  initialMarker = 'X';
 
-  if (selectedMarker == 'X') {
-    player1Choice = initialMarker;
-    player2Choice = 'O';
-  } else {
-    player1Choice = 'O';
-    player2Choice = initialMarker;
-  }
-  console.log('player1Choice = ', player1Choice, 'player2Choice = ', player2Choice)
-}
-
-
-
-function initializePlayers() {
-  player1 = new Player(player1Choice);
-  player2 = new Player(player2Choice);
-}
-
-function startGame() {
-  startButton.add
-}
 
 export { renderSelectionMenu }
 export { startGame, player1, player2, startButton }

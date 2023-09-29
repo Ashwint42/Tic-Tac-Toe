@@ -1,4 +1,3 @@
-//gameboard.js
 const GameBoard = (() => {
   const boardCells = [];
 

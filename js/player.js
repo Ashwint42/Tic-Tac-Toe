@@ -1,4 +1,3 @@
-
 class Player {
   constructor( marker, markerColor) {
     this.marker = marker;
